@@ -1,11 +1,10 @@
-# Conan Recipe for netcdf
+# Conan Recipe for cci
 
 |    | Badge |
 |:--------:|:---------:
 | Recipe License         | [![License: GPL v3](https://img.shields.io/badge/License-Bincrafters-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-| Source License         | [![License: GPL v3](https://img.shields.io/badge/License-netcdf-blue.svg)](https://www.unidata.ucar.edu/software/netcdf/docs/copyright.html)
-| Windows Package Status | [![Build status](https://ci.appveyor.com/api/projects/status/github/GavinNL/conan-netcdf?svg=true)](https://ci.appveyor.com/project/gavinNL/conan-netcdf)|
-| Linux Package Status   | [![Build Status](https://travis-ci.org/GavinNL/conan-netcdf.svg?branch=master)](https://travis-ci.org/GavinNL/conan-netcdf)|
+| Source License         | [![License: GPL v3](https://img.shields.io/badge/License-cci-blue.svg)](https://www.unidata.ucar.edu/software/cci/docs/copyright.html)
+| Linux Package Status   | [![Build Status](https://travis-ci.org/GavinNL/conan-cci.svg?branch=master)](https://travis-ci.org/GavinNL/conan-cci)|
 
 ## Conan Information
 
@@ -26,14 +25,14 @@ pip3 install --user conan
 This recipe is not hosted on any conan repository such as conan-center or bincrafters and therefore must be built locally. To build the recipe, conan must be installed on your system
 
 ```
-git clone https://github.com/GavinNL/conan-netcdf.git
-cd conan-netcdf
+git clone https://github.com/GavinNL/conan-cci.git
+cd conan-cci
 conan create . gavinNL/testing
 ```
 
 ## Issues
 
-This recipe is not actively maintained. Any issues can be posted at https://github.com/GavinNL/conan-netcdf/issues
+This recipe is not actively maintained. Any issues can be posted at https://github.com/GavinNL/conan-cci/issues
 
 Pull requests are appreciated.
 
